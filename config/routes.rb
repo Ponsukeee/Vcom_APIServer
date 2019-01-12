@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       get 'me'
     end
   end
+
+  post 'images' => 'images#upload'
 end
