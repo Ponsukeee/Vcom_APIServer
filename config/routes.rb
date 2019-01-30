@@ -6,5 +6,12 @@ Rails.application.routes.draw do
     end
   end
 
-  post 'images' => 'images#upload'
+  # post 'images' => 'images#upload'
+  # get 'images' => 'images#download'
+
+  post 'images' => 'simple_images#upload'
+  get 'images' => 'simple_images#download'
+
+  post 'vrms' => 'vrms#upload'
+  get 'vrms' => 'vrms#download'
 end

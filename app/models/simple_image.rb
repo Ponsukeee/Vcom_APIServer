@@ -1,0 +1,2 @@
+class SimpleImage < ApplicationRecord
+end

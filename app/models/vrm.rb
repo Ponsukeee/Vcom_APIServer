@@ -1,0 +1,2 @@
+class Vrm < ApplicationRecord
+end
